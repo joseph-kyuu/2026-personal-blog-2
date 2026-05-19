@@ -1,0 +1,33 @@
+/* 變數 */
+:root {
+  /* 顏色 */
+  --primary-50: #fdf7f1;
+  --primary-100: #fde6cf;
+  --primary-500: #f5b87b;
+  --primary-900: #24140b;
+  --neutral-0: #ffffff;
+  --neutral-500: #737373;
+  --neutral-700: #404040;
+  --neutral-900: #1e1e1e;
+  --dark-40a: #1e1e1e;
+  --dark-60a: #1e1e1e;
+}
+
+/* 全域設定 */
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
