@@ -31,3 +31,58 @@ img {
 *::after {
   box-sizing: border-box;
 }
+
+nav a {
+  color: var(--neutral-700);
+}
+
+/* max-w */
+.max-w-1296 {
+  max-width: 1296px;
+}
+
+.max-w-196 {
+  max-width: 196px;
+}
+
+/* marging */
+.mb-12 {
+  margin-bottom: 0.75rem;
+}
+
+.me-12 {
+  margin-right: 0.75rem;
+}
+
+/* padding */
+.py-12 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-54 {
+  padding-left: 3.375rem;
+  padding-right: 3.375rem;
+}
+
+/* color */
+.text-neutral-700 {
+  color: var(--neutral-700);
+}
+
+/* font-size */
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+/* hover */
+.nav-btn:hover,
+.nav-btn.active {
+  background: var(--primary-900);
+  color: var(--neutral-0);
+}
+
+/* line-height */
+.lh-150 {
+  line-height: 150%;
+}
