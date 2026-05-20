@@ -15,6 +15,10 @@
 
 /* 全域設定 */
 
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
 a {
   text-decoration: none;
   display: block;
